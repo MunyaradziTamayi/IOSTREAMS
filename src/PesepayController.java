@@ -18,8 +18,8 @@ public class PesepayController {
 
     public PesepayController() {
         // Replace with your integration key and encryption key
-        String integrationKey ="612cfd0e-1757-48bb-8209-cb1a3141e280";
-        String encryptionKey ="6fa767d43ea54ea2a76c3322c0c795ff";
+        String integrationKey ="";
+        String encryptionKey ="";
         this.pesepay = new Pesepay(integrationKey, encryptionKey);
 
         // Set return and result URLs
